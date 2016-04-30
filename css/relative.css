@@ -1,0 +1,14 @@
+.style1{
+    width: 300px;
+    height: 100px;
+    background-color: gray;
+    border: 1px solid red;
+    float: left;
+    margin-left: 10px;
+}
+
+#special{
+    position: none;/*这里使用了相对定位,left意思是在原来的位置向左移动多少*/
+    left: 40px;/*左侧坐标变大，向右移动*/
+    top: 200px;
+}

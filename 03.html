@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>浮动对象有负边界的情况[请用标准浏览器查看]</title>
+<style type="text/css">
+<!--
+* {margin:0px; padding:0px;}
+body {margin:50px; font-size:12px;}
+#box {background-color: #66CCFF;  height: 100px; width: 300px; border: 1px solid #66CCCC; }
+#box2 {background-color: #33CC99;margin:-10px 10px 0px 0px; height:20px; width: 100px; border: 1px solid #336666;float:right;}
+-->
+</style>
+</head>
+
+<body>
+<div id="box">
+  <div id="box2">margin-top:-15px</div>
+右上方小盒子边界是margin:-10px 10px 0px 0px;，folat:right，这个效果还可以吧，这可不是用相对、或者绝对定位做出来的哦，部分文字还是有环绕效果。如果在上面小盒子输标题，在这大盒子内部输内容，这种类型的网页版面效果还可以的，大家可以举一反三，多做出另外类似的效果来。</div>
+</body>
+</html>
